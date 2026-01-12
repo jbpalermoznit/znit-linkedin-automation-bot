@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs e dados sensíveis
+log_envios*.csv
+perfis_extraidos.json
+*.log
+
+# Credenciais - NUNCA COMMIT!
+credentials.py
+config.py
+config_local.py
+.env
+
+# Dados pessoais - NUNCA COMMIT!
+urls_real.csv
+urls_production.csv
+minhas_urls.csv
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Selenium
+geckodriver.log
+chromedriver.log
+
+# Backup
+*.bak
+*.backup
+*.old
