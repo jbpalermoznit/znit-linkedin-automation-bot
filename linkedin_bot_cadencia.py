@@ -17,6 +17,10 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import pytz
 import pandas as pd
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -30,8 +34,8 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 # CONFIGURAÇÕES BÁSICAS
 # ============================================
 
-EMAIL = "seu_email@example.com"
-SENHA = "sua_senha_aqui"
+EMAIL = os.getenv("LINKEDIN_EMAIL", "")
+SENHA = os.getenv("LINKEDIN_PASSWORD", "")
 
 # Arquivos
 ARQUIVO_URLS = "config/urls.csv"
