@@ -1,0 +1,7 @@
+Oi {nome}, tudo bem?
+
+Vi que você aceitou minha conexão, muito obrigado!
+
+Gostaria de saber se posso te ajudar em algo relacionado a {area}?
+
+Abraços!

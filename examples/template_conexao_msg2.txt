@@ -1,0 +1,7 @@
+Oi {nome}!
+
+Só passando para ver se você recebeu minha mensagem anterior.
+
+Caso tenha interesse em conversar sobre {area}, fico à disposição!
+
+Abraços!

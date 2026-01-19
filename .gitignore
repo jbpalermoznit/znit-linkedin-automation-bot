@@ -1,0 +1,114 @@
+# ============================================
+# LinkedIn Bot - ZNIT
+# .gitignore - Arquivos ignorados pelo Git
+# ============================================
+
+# ⚠️ NUNCA commite credenciais!
+.env
+credentials.py
+config.py
+config_local.py
+
+# Dados sensíveis e gerados pelo bot
+config/urls.csv
+data/*.json
+data/*.csv
+logs/*.log
+logs/*.txt
+log_envios*.csv
+perfis_extraidos.json
+
+# Dados pessoais - NUNCA COMMIT!
+urls_real.csv
+urls_production.csv
+minhas_urls.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Selenium
+selenium-debug.log
+geckodriver.log
+chromedriver.log
+
+# Logs
+*.log
+
+# Temporários
+*.tmp
+*.bak
+*.backup
+*.old
+*.swp
+*~

@@ -1,0 +1,7 @@
+Oi {nome}, tudo bem?
+
+Estamos conectados aqui no LinkedIn e gostaria de saber como posso te ajudar em relação a {area}.
+
+Tem algum projeto ou desafio em andamento?
+
+Abraços!

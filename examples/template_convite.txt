@@ -1,0 +1,5 @@
+Olá {nome}!
+
+Vi seu perfil e fiquei impressionado com sua experiência em {empresa}. Gostaria de conectar e trocar ideias sobre o mercado.
+
+Abraço!

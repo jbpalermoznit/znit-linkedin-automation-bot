@@ -1,0 +1,17 @@
+# LinkedIn Bot IA - Dependências
+
+# Web Automation
+selenium==4.17.2
+webdriver-manager==4.0.2
+
+# Data Processing
+pandas==2.3.2
+
+# HTTP Requests
+requests==2.31.0
+
+# Environment Variables
+python-dotenv==1.2.1
+
+# Outras dependências
+numpy>=1.26.0

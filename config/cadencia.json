@@ -1,0 +1,84 @@
+{
+  "ativo": true,
+
+  "horarios": {
+    "janelas": [
+      {"inicio": "09:00", "fim": "12:00"},
+      {"inicio": "14:00", "fim": "17:00"}
+    ],
+    "dias_semana": [0, 1, 2, 3, 4],
+    "fuso_horario": "America/Sao_Paulo"
+  },
+
+  "limites": {
+    "max_por_dia": 25,
+    "max_por_hora": 10,
+    "intervalo_min_segundos": 60,
+    "intervalo_max_segundos": 180
+  },
+
+  "sequencia_novos_contatos": {
+    "ativo": true,
+    "descricao": "Cadência para pessoas que ainda não são conexões",
+    "etapas": [
+      {
+        "id": 1,
+        "nome": "convite",
+        "tipo": "convite_com_mensagem",
+        "template": "examples/template_convite.txt",
+        "dias_espera": 0
+      },
+      {
+        "id": 2,
+        "nome": "follow_up_1",
+        "tipo": "mensagem",
+        "template": "examples/template_followup1.txt",
+        "dias_espera": 3,
+        "condicao": "conexao_aceita"
+      },
+      {
+        "id": 3,
+        "nome": "follow_up_2",
+        "tipo": "mensagem",
+        "template": "examples/template_followup2.txt",
+        "dias_espera": 7,
+        "condicao": "sem_resposta"
+      }
+    ]
+  },
+
+  "sequencia_conexoes_existentes": {
+    "ativo": true,
+    "descricao": "Cadência para pessoas que já são conexões",
+    "etapas": [
+      {
+        "id": 1,
+        "nome": "mensagem_inicial",
+        "tipo": "mensagem",
+        "template": "examples/template_conexao_msg1.txt",
+        "dias_espera": 0
+      },
+      {
+        "id": 2,
+        "nome": "follow_up_1",
+        "tipo": "mensagem",
+        "template": "examples/template_conexao_msg2.txt",
+        "dias_espera": 4,
+        "condicao": "sem_resposta"
+      },
+      {
+        "id": 3,
+        "nome": "follow_up_2",
+        "tipo": "mensagem",
+        "template": "examples/template_conexao_msg3.txt",
+        "dias_espera": 10,
+        "condicao": "sem_resposta"
+      }
+    ]
+  },
+
+  "execucao": {
+    "modo": "continuo",
+    "verificar_intervalo_minutos": 5
+  }
+}
