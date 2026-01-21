@@ -35,7 +35,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 # ============================================
 
 EMAIL = os.getenv("LINKEDIN_EMAIL", "")
-SENHA = os.getenv("LINKEDIN_PASSWORD", "")
+SENHA = os.getenv("LINKEDIN_SENHA", "")
 
 # Arquivos
 ARQUIVO_URLS = "config/urls.csv"

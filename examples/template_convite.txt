@@ -1,5 +1,1 @@
-Olá {nome}!
-
-Vi seu perfil e fiquei impressionado com sua experiência em {empresa}. Gostaria de conectar e trocar ideias sobre o mercado.
-
-Abraço!
+Oi, {nome}! Vi seu trabalho na {empresa}. Notei que muitos times do setor gastam mais tempo preenchendo planilhas do que na estratégia da obra. Gostaria de te conectar para mostrar como a ZNIT reduz esse tempo de meses para semanas

@@ -1,7 +1,5 @@
-Oi {nome}, tudo bem?
+Oi, {nome}, obrigado por aceitar! O que vejo muito no setor é o time de inovação perdendo semanas em planilhas, em vez de focar na estratégia da obra.
 
-Vi que você aceitou minha conexão, muito obrigado!
+Na ZNIT, a gente reduz esse tempo de meses para semanas. Desenvolvemos uma Calculadora de ROI de Green Capex específica para construção.
 
-Gostaria de saber se posso te ajudar em algo relacionado a {area}?
-
-Abraços!
+Faz sentido eu te mandar o link para você testar com os números da {empresa}?
