@@ -1,7 +1,3 @@
-Oi {nome}, tudo bem?
+Oi, {nome}! Vi sua atuação com {area} na {empresa}. Como esse tema de ESG na prática tem dominado minhas conversas recentes com construtoras — especialmente o gargalo dos controles manuais no Green Capex — achei que valia nos conectarmos por aqui também.
 
-Estamos conectados aqui no LinkedIn e gostaria de saber como posso te ajudar em relação a {area}.
-
-Tem algum projeto ou desafio em andamento?
-
-Abraços!
+Além da nossa calculadora de ROI, queria te enviar a última edição da nossa Newsletter Prática sobre ESG. Topa dar uma olhada?

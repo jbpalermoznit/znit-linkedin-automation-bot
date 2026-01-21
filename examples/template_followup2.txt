@@ -1,7 +1,7 @@
-Oi {nome}!
+{nome}, curiosidade: como a {empresa} está se preparando para a regulamentação do Mercado de Carbono no Brasil? 
 
-Passando só para reforçar meu contato. Caso tenha interesse em conversar sobre {area}, estou à disposição.
+O jogo mudou: o ESG deixou de ser custo operacional para virar ativo estratégico. Estamos apoiando players do setor a saírem do controle manual para garantir competitividade nesse novo cenário.
 
-Qualquer coisa, é só chamar!
+Tenho um depoimento de um dos clientes focado em construção civil. 
 
-Abraços!
+Posso te enviar por aqui? Caso contrário, vou encerrar os contatos! Sucesso nos projetos.

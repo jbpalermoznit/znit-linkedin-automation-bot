@@ -1,7 +1,7 @@
-Oi {nome}!
+{nome}, notei que a {empresa} preza muito pela conformidade em licitações. Sabemos que qualquer erro manual em planilhas é um risco alto em auditorias de IFRS S2 ou LEED.
 
-Só passando para ver se você recebeu minha mensagem anterior.
+Ajudamos a Fortanks a blindar esses dados, ganhando produtividade e reduzindo emissões simultaneamente.
 
-Caso tenha interesse em conversar sobre {area}, fico à disposição!
+Vou deixar o link do case aqui: https://www.youtube.com/watch?v=OJOzEtcMfCQ.
 
-Abraços!
+Se fizer sentido, podemos olhar como aplicar essa estrutura na sua realidade em um papo de 15 min?
